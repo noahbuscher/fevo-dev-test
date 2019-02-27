@@ -10,6 +10,14 @@ My solution (on the second iteration) was to go with a recursive function. This 
 
 Though this solution works, it's using recursion and nested `for` loops which leads to a poor time complexity. I would like to use indexes in the future to trade off time for space.
 
+## Running
+
+To run the script, make sure you have [Node.js](https://nodejs.org/en/) installed in your machine. After that, just run:
+
+```
+node main.js
+```
+
 ## Output (From Sample Set)
 
 ```
