@@ -9,3 +9,14 @@ My solution (on the second iteration) was to go with a recursive function. This 
 ## Thoughts
 
 Though this solution works, it's using recursion and nexted `for` loops which leads to a poor time complexity. I would like to use indexes in the future to trade off time for space.
+
+## Output (From Sample Set)
+
+```
+[ { name: 'A',
+    emails: [ 'a@gmail.com', 'b@gmail.com', 'a@yahoo.com' ],
+    applications: [ 1, 3, 2 ] },
+  { name: 'C',
+    emails: [ 'c@gmail.com', 'd@gmail.com' ],
+    applications: [ 1 ] } ]
+```
