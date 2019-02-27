@@ -84,6 +84,7 @@ function mergePeople(people) {
 
             // Match found!
             if (emailToBeCompared === email) {
+              
               // Merge emails/accounts
               people[i].emails = mergeArrays(people[i].emails, emailsToBeCompared);
               people[i].applications = mergeArrays(people[i].applications, people[k].applications);
