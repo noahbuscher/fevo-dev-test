@@ -101,4 +101,4 @@ function mergePeople(people) {
 }
 
 // Log list to console
-console.log('Result', mergePeople(populatePeople(accountData)));
+console.log(mergePeople(populatePeople(accountData)));
