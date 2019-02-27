@@ -1,0 +1,11 @@
+# Fevo Dev Test
+
+This is the dev test for Fevo. The goal is to sort a list of accounts, grouping by email.
+
+## Solution
+
+My solution (on the second iteration) was to go with a recursive function. This prevents falling into a trap where after you merge emails on the first layer, other matches could potentially surface without the program consolidating those.
+
+## Thoughts
+
+Though this solution works, it's using recursion and nexted `for` loops which leads to a poor time complexity. I would like to use indexes in the future to trade off time for space.
