@@ -8,7 +8,7 @@ My solution (on the second iteration) was to go with a recursive function. This 
 
 ## Thoughts
 
-Though this solution works, it's using recursion and nexted `for` loops which leads to a poor time complexity. I would like to use indexes in the future to trade off time for space.
+Though this solution works, it's using recursion and nested `for` loops which leads to a poor time complexity. I would like to use indexes in the future to trade off time for space.
 
 ## Output (From Sample Set)
 
